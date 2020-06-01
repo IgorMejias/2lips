@@ -1,0 +1,67 @@
+#Titulo{
+	background-image:url(MainFondo.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+#Banner{
+background:transparent;
+}
+#Banner,a{
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+	margin:0px;
+	background:black;
+}
+.NavA:hover{
+	background:white;
+}
+#Banner,a:active{
+	color:white;
+}
+.BannerDiv{
+	position:sticky;
+	top:0;
+	z-index:100;
+}
+.Espacio{
+	background:black;
+}
+.Buscar{
+color:white;
+border-style:none;
+background-color:black;
+border-radius:5px;
+background-position:50%;
+}
+.Buscar:focus{
+outline:none;
+}
+.Buscar:hover{
+background:white;
+color:blue;
+}
+.TextoBuscar{
+	border-radius:5px;
+	border-style:none;
+}
+.TextoBuscar:focus{
+	outline:none;
+}
+.FormBuscar{
+	background:rgba(0,0,0,0.7);
+}
+#MenuResponsive{
+border-radius:5px;
+border-style:solid;
+	
+}
+@media(max-width:768px){
+	#Banner{
+		display:none;
+	}
+	h1{
+	background:rgba(0,0,0,0.5);
+	}
+}

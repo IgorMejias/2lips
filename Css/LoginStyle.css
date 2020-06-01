@@ -1,0 +1,37 @@
+#Main{
+	background:url(MainFondo.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:100%;
+}
+body{
+	background:black;
+}
+#RegistroCont{
+	background:rgba(82,82,82,0.6);
+}
+#LoginCont{
+	background:rgba(82,82,82,0.6);
+}
+Aside{
+	background:rgba(82,82,82,0.3);
+	border-top-style:solid;
+	border-width:1px;
+	border-color:gray;
+}
+#VerifUser{
+	display:none;
+	color:red;
+}
+#VerifPass{
+	display:none;
+	color:red;
+}
+#VerifPass2{
+	display:none;
+	color:red;
+}
+#VerifCorreo{
+	display:none;
+	color:red;
+}
